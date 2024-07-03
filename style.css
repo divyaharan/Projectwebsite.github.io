@@ -1,0 +1,128 @@
+*{
+ margin: 0;
+ padding: 0;  
+ font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(74, 175, 74);  
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 90px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    padding: 30px;
+    font-size: 22px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+     
+}
+.vege-head{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.vege-para{
+    margin-bottom: 20px;
+}
+.btn{
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    width: 30%;
+    cursor: pointer;
+}
+span{
+    color: black;
+}
+.btn1{
+    padding: 15px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 30%;
+    cursor: pointer;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 100px;
+}
+footer p{
+    text-align: center;
+}
+#about{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 50px; 
+    gap: 60px;
+}
+.abtpara{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aboutcontent
+
+.img1{
+    margin-bottom: 20px; 
+}
+.para{
+    margin-bottom: 20px;
+}
+.aboutimg{
+    border-radius: 10px;
+}
+.shophead{
+    margin-left: 30px;
+}
+.shoppage{
+    margin-top: 30px;
+}
+.shoppara{
+    margin-bottom: 30px;
+}
+.vegetable{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#veges{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#veges button{
+   background-color: black;
+   color: white;
+   padding: 10px;
+   border-radius: 6px;
+}
+#veges img{
+    border-radius: 10px;
+}
+.contact{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
